@@ -162,6 +162,13 @@ subscriptions:
 
   - topic: /fmu/in/aux_global_position
     type: px4_msgs::msg::VehicleGlobalPosition
+  
+  - topic: /fmu/in/landing_target_pose
+    type: px4_msgs::msg::LandingTargetPose
+    reliability: reliable
+    history:
+      kind: KEEP_LAST
+      depth: 10
 
 # Create uORB::PublicationMulti
 subscriptions_multi:
