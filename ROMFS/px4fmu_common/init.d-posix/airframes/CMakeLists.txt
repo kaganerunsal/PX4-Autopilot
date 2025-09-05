@@ -78,6 +78,9 @@ px4_add_romfs_files(
 	4005_gz_x500_vision
 	4006_gz_px4vision
 
+	4080_gz_starling_v2
+	4081_gz_starling_v2_modalai
+
 	6011_gazebo-classic_typhoon_h480
 	6011_gazebo-classic_typhoon_h480.post
 
