@@ -5,6 +5,11 @@
 #####
 publications:
 
+  # PX4_{WARN,ERR}/mavlink_log_* text (e.g. "Arming denied: ..."), consumed by
+  # drone_control's px4_statustext_enable for the GUI health display.
+  - topic: /fmu/out/mavlink_log
+    type: px4_msgs::msg::MavlinkLog
+
   - topic: /fmu/out/register_ext_component_reply
     type: px4_msgs::msg::RegisterExtComponentReply
 
